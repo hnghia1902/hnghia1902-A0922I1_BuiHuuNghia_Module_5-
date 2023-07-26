@@ -1,0 +1,10 @@
+#text{
+    color: black;
+    font-family: "Times New Roman", Times, serif;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
