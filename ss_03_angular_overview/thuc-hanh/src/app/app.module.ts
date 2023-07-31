@@ -8,6 +8,10 @@ import { AbcComponent } from './change-font-size/abc/abc.component';
 import { CalculatorComponent } from './calculator/calculator.component';
 import {FormsModule} from '@angular/forms';
 import { ColerPickerComponent } from './coler-picker/coler-picker.component';
+import { NavbarComponent } from './ss_04/bai_tap/navbar/navbar.component';
+import { FooterComponent } from './ss_04/bai_tap/footer/footer.component';
+import { ArticleComponent } from './ss_04/bai_tap/article/article.component';
+import { LikeComponent } from './ss_04/bai_tap/like/like.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +19,11 @@ import { ColerPickerComponent } from './coler-picker/coler-picker.component';
     ChangeFontSizeComponent,
     AbcComponent,
     CalculatorComponent,
-    ColerPickerComponent
+    ColerPickerComponent,
+    NavbarComponent,
+    FooterComponent,
+    ArticleComponent,
+    LikeComponent
   ],
   imports: [
     BrowserModule,
