@@ -12,6 +12,8 @@ import { NavbarComponent } from './ss_04/bai_tap/navbar/navbar.component';
 import { FooterComponent } from './ss_04/bai_tap/footer/footer.component';
 import { ArticleComponent } from './ss_04/bai_tap/article/article.component';
 import { LikeComponent } from './ss_04/bai_tap/like/like.component';
+import {CountdownTimerComponent} from './ss_05/countdown-timer/countdown-timer.component';
+
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { LikeComponent } from './ss_04/bai_tap/like/like.component';
     NavbarComponent,
     FooterComponent,
     ArticleComponent,
-    LikeComponent
+    LikeComponent,
+    CountdownTimerComponent,
+
   ],
   imports: [
     BrowserModule,
