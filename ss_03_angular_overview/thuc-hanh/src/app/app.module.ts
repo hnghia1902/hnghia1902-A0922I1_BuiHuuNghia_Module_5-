@@ -6,13 +6,14 @@ import { AppComponent } from './app.component';
 import { ChangeFontSizeComponent } from './change-font-size/change-font-size.component';
 import { AbcComponent } from './change-font-size/abc/abc.component';
 import { CalculatorComponent } from './calculator/calculator.component';
-import {FormsModule} from '@angular/forms';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { ColerPickerComponent } from './coler-picker/coler-picker.component';
 import { NavbarComponent } from './ss_04/bai_tap/navbar/navbar.component';
 import { FooterComponent } from './ss_04/bai_tap/footer/footer.component';
 import { ArticleComponent } from './ss_04/bai_tap/article/article.component';
 import { LikeComponent } from './ss_04/bai_tap/like/like.component';
 import {CountdownTimerComponent} from './ss_05/countdown-timer/countdown-timer.component';
+import { FormDangkyComponent } from './ss_o6/form-dangky/form-dangky.component';
 
 
 @NgModule({
@@ -27,12 +28,14 @@ import {CountdownTimerComponent} from './ss_05/countdown-timer/countdown-timer.c
     ArticleComponent,
     LikeComponent,
     CountdownTimerComponent,
+    FormDangkyComponent,
 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
