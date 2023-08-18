@@ -15,6 +15,8 @@ import { LikeComponent } from './ss_04/bai_tap/like/like.component';
 import {CountdownTimerComponent} from './ss_05/countdown-timer/countdown-timer.component';
 import { FormDangkyComponent } from './ss_o6/form-dangky/form-dangky.component';
 
+import { TuDienTraCuuComponent } from './ss_07/tu-dien-tra-cuu/tu-dien-tra-cuu.component';
+
 
 @NgModule({
   declarations: [
@@ -29,6 +31,8 @@ import { FormDangkyComponent } from './ss_o6/form-dangky/form-dangky.component';
     LikeComponent,
     CountdownTimerComponent,
     FormDangkyComponent,
+
+    TuDienTraCuuComponent,
 
   ],
   imports: [
